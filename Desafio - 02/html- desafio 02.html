@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Programa de Formação em Tecnologia</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <button class="back-button">Voltar</button>
+            <div class="header">
+                <h1>Formulário de Inscrição</h1>
+                <p>Preencha os dados abaixo para fazer sua inscrição no Programa Trilhas.</p>
+            </div>
+            
+            <section class="participant-info">
+                <h2>Informações do Participante</h2>
+                <label>Nome Completo</label>
+                <input type="text" class="input-box" placeholder="Digite seu nome completo">
+                
+                <label>Data de Nascimento</label>
+                <input class="input-box" placeholder="Digite sua data de nascimento">
+                
+                <label>CPF</label>
+                <input type="text" class="input-box" placeholder="Digite seu CPF">
+                
+                <label>Sexo</label>
+                <select class="input-box">
+                    <option value="">Selecione</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="outro">Outro</option>
+                </select>
+                
+                <label>E-mail</label>
+                <input type="email" class="input-box" placeholder="Digite seu e-mail">
+                <span class="helper-message">Insira um e-mail válido</span>
+                
+                <label>Telefone</label>
+                <input type="tel" class="input-box" placeholder="Digite seu telefone">
+                
+                <label>Documento de Identidade</label>
+                <input type="file" class="file-upload">
+            </section>
+            
+            <section class="address">
+                <h2>Endereço Residencial</h2>
+                <label>CEP</label>
+                <input type="text" class="input-box" placeholder="Digite seu CEP">
+                
+                <label>Rua</label>
+                <input type="text" class="input-box" placeholder="Digite sua rua">
+                
+                <label>Número</label>
+                <input type="text" class="input-box" placeholder="Digite o número">
+                
+                <label>Cidade</label>
+                <input type="text" class="input-box" placeholder="Digite sua cidade">
+                
+                <label>Estado</label>
+                <select class="input-box">
+                    <option value="">Selecione</option>
+                    <option value="MA">MA</option>
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>
+                    <option value="outro">Outro</option>
+                </select>
+                
+                <label>Comprovante de Residência</label>
+                <input type="file" class="file-upload">
+            </section>
+            
+            <section class="learning-trails">
+                <h2>Trilhas de Aprendizagem</h2>
+                <p>Selecione apenas uma trilha</p>
+                <div class="options">
+                    <label><input type="radio" name="trilha" value="front-end"> Programação Front-end</label>
+                    <label><input type="radio" name="trilha" value="back-end"> Programação Back-end</label>
+                    <label><input type="radio" name="trilha" value="games"> Programação de Jogos</label>
+                    <label><input type="radio" name="trilha" value="design"> Design e Experiência</label>
+                    <label><input type="radio" name="trilha" value="data-science"> Ciência de Dados</label>
+                </div>
+            </section>
+            
+            <section class="terms">
+                <label>
+                    <input type="checkbox" name="terms"> Declaro que li e concordo com os Termos e Condições e com a Política de Privacidade.
+                </label>
+            </section>
+            <div class="submit-button">
+                <button type="submit">Enviar Inscrição</button>
+            </div>
+            <img src="boneco.png" alt="boneco">
+        </div>
+            
+    </body>
+</html>
+    
